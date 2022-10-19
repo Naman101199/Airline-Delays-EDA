@@ -1,0 +1,4 @@
+USE flights;
+
+show tables;
+
