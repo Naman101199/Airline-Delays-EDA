@@ -1,0 +1,21 @@
+Connect MySQL Server on GCP to local Workbench
+
+1. Create new SQL Connection with the following credentials - 
+a) Host - 34.121.37.33
+b) Port - 3306
+c) username - root
+d) password - rootroot
+e) Connection Name - (Anything works)
+
+2. Click Test Connection
+
+
+Connect MySQL Server on GCP to Python
+
+1. Run pip install PyMySQL
+2. Run following commands
+
+import sqlalchemy as db
+engine = db.create_engine('mysql+pymysql://root:rootroot@34.121.37.33/flights',echo = True)
+conn = engine.connect()
+
