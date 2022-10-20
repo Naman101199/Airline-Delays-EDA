@@ -1,0 +1,17 @@
+1. ssh-keygen -t rsa
+2. Click Enter
+3. Click Enter
+4. Go to /Users/username/.ssh/id_rsa
+5. Go to Github/Your Profile
+6. SSH and GPG keys
+7. Add New SSH Key or delete and add new SSH key
+8. Paste the key
+9. Go to DataEngineeringPlatforms repository copy SSH code
+10. In Terminal run the following commands - 
+A) cd Desktop
+B) git clone path-of-SSH-Git-Code
+
+Refer this link to understand git - 
+
+https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/
+10 Git Commands Every Developer Should Know (freecodecamp.org)
