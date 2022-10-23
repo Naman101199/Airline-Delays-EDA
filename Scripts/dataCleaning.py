@@ -89,5 +89,6 @@ airport_list.to_sql(name = 'aiport_list',con = conn, schema = 'flights', index =
 employees = pd.read_csv('P10_EMPLOYEES.csv')
 employees.to_sql(name = 'p10_employees',con = conn, schema = 'flights', index = False, if_exists = 'replace')
 
+#test
 
 
